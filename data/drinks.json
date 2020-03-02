@@ -1,0 +1,317 @@
+[
+    {
+        "name": "Fruit juice",
+        "min": 0,
+        "max": 0.09
+    },
+    {
+        "name": "Low-alcohol beer",
+        "min": 0.05,
+        "max": 1.2
+    },
+    {
+        "name": "Kvass",
+        "min": 0.05,
+        "max": 1.5
+    },
+    {
+        "name": "Kombucha",
+        "min": 0.5,
+        "max": 1.5
+    },
+    {
+        "name": "Boza",
+        "min": 1,
+        "max": 1
+    },
+    {
+        "name": "Kefir",
+        "min": 0.2,
+        "max": 2
+    },
+    {
+        "name": "Tubâ",
+        "min": 2,
+        "max": 4
+    },
+    {
+        "name": "Chicha",
+        "min": 1,
+        "max": 11
+    },
+    {
+        "name": "Makgeolli",
+        "min": 6.5,
+        "max": 7
+    },
+    {
+        "name": "Beer",
+        "min": 2,
+        "max": 12
+    },
+    {
+        "name": "Cider",
+        "min": 2,
+        "max": 12
+    },
+    {
+        "name": "Kuchikamizake",
+        "min": 7,
+        "max": 7
+    },
+    {
+        "name": "Malt liquor",
+        "min": 6,
+        "max": 9
+    },
+    {
+        "name": "Alcopops",
+        "min": 4,
+        "max": 17.5
+    },
+    {
+        "name": "Barley wine",
+        "min": 8,
+        "max": 15
+    },
+    {
+        "name": "Bahalina",
+        "min": 10,
+        "max": 13
+    },
+    {
+        "name": "Mead",
+        "min": 8,
+        "max": 16
+    },
+    {
+        "name": "Bignay wine",
+        "min": 12,
+        "max": 13
+    },
+    {
+        "name": "Duhat wine",
+        "min": 12,
+        "max": 13
+    },
+    {
+        "name": "Basi",
+        "min": 10,
+        "max": 16
+    },
+    {
+        "name": "Wine",
+        "min": 12.5,
+        "max": 14.5
+    },
+    {
+        "name": "Sake",
+        "min": 14,
+        "max": 17
+    },
+    {
+        "name": "Kilju",
+        "min": 15,
+        "max": 17
+    },
+    {
+        "name": "Tapuy",
+        "min": 14,
+        "max": 19
+    },
+    {
+        "name": "Fortified wine",
+        "min": 15.5,
+        "max": 20
+    },
+    {
+        "name": "Dessert wine",
+        "min": 14,
+        "max": 25
+    },
+    {
+        "name": "Soju",
+        "min": 16.8,
+        "max": 53
+    },
+    {
+        "name": "Liqueurs",
+        "min": 15,
+        "max": 55
+    },
+    {
+        "name": "Shochu",
+        "min": 25,
+        "max": 45
+    },
+    {
+        "name": "Applejack",
+        "min": 30,
+        "max": 40
+    },
+    {
+        "name": "Rượu đế",
+        "min": 27,
+        "max": 45
+    },
+    {
+        "name": "Bitters",
+        "min": 28,
+        "max": 45
+    },
+    {
+        "name": "Fernet",
+        "min": 39,
+        "max": 45
+    },
+    {
+        "name": "Lambanog",
+        "min": 40,
+        "max": 45
+    },
+    {
+        "name": "Nalewka",
+        "min": 40,
+        "max": 45
+    },
+    {
+        "name": "Tsipouro",
+        "min": 40,
+        "max": 45
+    },
+    {
+        "name": "Gin",
+        "min": 37.5,
+        "max": 50
+    },
+    {
+        "name": "Mezcal",
+        "min": 32,
+        "max": 60
+    },
+    {
+        "name": "Tequila",
+        "min": 32,
+        "max": 60
+    },
+    {
+        "name": "Cachaça",
+        "min": 38,
+        "max": 54
+    },
+    {
+        "name": "Țuică",
+        "min": 30,
+        "max": 65
+    },
+    {
+        "name": "Brandy",
+        "min": 35,
+        "max": 60
+    },
+    {
+        "name": "Arak",
+        "min": 40,
+        "max": 63
+    },
+    {
+        "name": "Maotai",
+        "min": 43,
+        "max": 53
+    },
+    {
+        "name": "Grappa",
+        "min": 37.5,
+        "max": 60
+    },
+    {
+        "name": "Sotol",
+        "min": 38,
+        "max": 60
+    },
+    {
+        "name": "Scotch whisky",
+        "min": 40,
+        "max": 63.5
+    },
+    {
+        "name": "Baijiu",
+        "min": 40,
+        "max": 65
+    },
+    {
+        "name": "Whisky",
+        "min": 40,
+        "max": 68
+    },
+    {
+        "name": "Chacha",
+        "min": 40,
+        "max": 70
+    },
+    {
+        "name": "Ouzo",
+        "min": 35,
+        "max": 80
+    },
+    {
+        "name": "Rum",
+        "min": 37.5,
+        "max": 80
+    },
+    {
+        "name": "Stroh",
+        "min": 38,
+        "max": 80
+    },
+    {
+        "name": "Pálinka",
+        "min": 37.5,
+        "max": 86
+    },
+    {
+        "name": "Răchie",
+        "min": 42,
+        "max": 86
+    },
+    {
+        "name": "Vodka",
+        "min": 35,
+        "max": 95
+    },
+    {
+        "name": "Absinthe",
+        "min": 45,
+        "max": 89.9
+    },
+    {
+        "name": "Oghi",
+        "min": 60,
+        "max": 75
+    },
+    {
+        "name": "Centerbe",
+        "min": 70,
+        "max": 70
+    },
+    {
+        "name": "Poitín",
+        "min": 60,
+        "max": 95
+    },
+    {
+        "name": "Cocoroco",
+        "min": 93,
+        "max": 96
+    },
+    {
+        "name": "Rectified spirit",
+        "min": 95,
+        "max": 95
+    },
+    {
+        "name": "Neutral grain spirit",
+        "min": 95,
+        "max": 97.2
+    }
+]
