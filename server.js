@@ -17,11 +17,11 @@ function getDrink() {
   }
 
 //postDrink
-function postDrink(drink) {
-    const cocktails = getDrink();
+function addDrink(drink) {
+    const cocktails = getDrink(); //reading whole list of json
     // Push updates the original array
-    cocktails.drinks.push(drink);
-    fs.writeFileSync(path.join(__dirname, "./data/drinks.json"), JSON.stringify(cocktails));
+    cocktails.push(drink); //putting new drink into json 
+    fs.writeFileSync(path.join(__dirname, "./data/drinks.json"), JSON.stringify(cocktails)); //storing data on computer
     return cocktails;
   }
 
@@ -39,14 +39,17 @@ app.get("/", (req, res) => {
 app.get("/drinks", (req, res) => {
     const drinks = getDrink();
     res.json(drinks);
+    console.log(drinks);
 });
 
 //Post Request - have to loop through JSON?
-// app.post("/drinks", (req, res) => {
-//     const drink = req.body.drink;
-//     const drinks = postDrink(drink);
-//     res.json(drinks); //not latching on when I push?
-//   });
+app.post("/drinks", (req, res) => {
+  const drink = req.body;
+  console.log(drink);
+    const drinks = getDrink();
+    const moredrinks = addDrink(drink);
+    res.json(moredrinks); //not latching on when I push?
+  });
 
 
 //Listening Port

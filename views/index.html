@@ -8,19 +8,21 @@
     <link rel='stylesheet' type='text/css' media='screen' href='style.css'>
 </head>
 <body> 
-    <h1>Main Page</h1>
-    <a href= "/readme.md" target = "_blank" > About </a>
+    <div class = "top">
+        <h1>DRINKS</h1>
+    </div>
+    <div class="About">
+        <a href= "/about" > About </a>
+    </div>
     <script src ="client.js"></script>
 </body>
+     <!-- style through class, javascript through id*/ -->
     <section class="section-1">   
-     <h2>Drinks</h2>
-     <!-- <a href="" class="mybutton"><button id = "get-request"  >Get Request</button></a> -->
-     <button id = "get-request"  >Get Request</button>
+     <button id = "get-request" >GET DRINKS</button>
          <ul id = "drinks-list"></ul>
+   
+         <input type="text" id = "drink-value" placeholder="Enter Drink" name="Drink" />
+            <button id = "add-drink">Add Drink</button>
     </section>
-    <!-- <form id = "topping-form">
-        <input type = "text" placeholder = "Topping" name = "topping" />
-        <button> Post Topping </button>
-    </form> -->
-    <!-- style through class, javascript through id*/ -->
+    
 </html>

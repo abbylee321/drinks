@@ -1,9 +1,22 @@
 body {
-    background-color: lightblue;
+    margin: 0px;
+    background-color: #ff726f;
   }
+
+.top {
+  margin: 0px;
+  background-color: #000000;
+  padding: 5px;
+}
+.About {
+  text-align: center; 
+  padding: 5px; 
+  margin: 5px; 
+}
 
 h1  {
     text-align: center;
+    color: white; 
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
@@ -14,24 +27,12 @@ h2 {
 .section-1{
   text-align: center;
 }
-.mybutton{
-  background-color:black;
-}
-.mybutton :hover{
-  background-color:blue;
-  color:pink;
-}
-.mybutton > a{
-  text-decoration: none;
-  color:white;
-}
-.mybutton > a:hover{
-  /* background-color:blue; */
-}
+
 #get-request{
   padding:15px 20px; /*top, bottom = 15px, left, right = 20px*/
   border:1px solid black;
   border-radius: 5px;
+  margin: 20px; 
 }
 
 li{
