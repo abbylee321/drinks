@@ -1,6 +1,7 @@
 ## VIRTUAL DRINKS
 
-This week, I created a virtual bartending website, where you can access a list of drinks and add your own to the list. I used the Npm package drinks. ![Drinks] https://www.npmjs.com/package/drinks.
+This week, I created a virtual bartending website, where you can access a list of drinks and add your own to the list. I used the Npm package drinks. 
+[Drinks] (https://www.npmjs.com/package/drinks).
 
 ## PROCESS
 ### Overview 
@@ -9,12 +10,12 @@ This week was a lot of education in terms of learning node.js and how it interac
 ## DEVELOPMENT 
 I didn't realize the proper structure of JSON files until I ran into issues using my file to push to my array. I wanted to access the "name" of the drinks and ignore the "min" and "max", however, it was difficult for me to access the name itself since there was no higher "drinks" object. 
 
-(image)
+![jsonfile](https://github.com/abbylee321/Week4/blob/master/json-drinks.png)
 
 After understanding the JSON file, I wanted to display all the drink names on screen through the button click. That required connecting the server side and the client side, a relationship that was quite confused by. I met with Cassie to help me explain their separation and how they communicated was through the Fetch API. I would use the async/await to create the Fetch API. 
 
 
-(image)
+![serverclient](https://github.com/abbylee321/Week4/blob/master/Server%2BClient%20Overview.jpg)
 
 
 First, to test that I could get all the data I did a console.log on the button click. Next, I used innerHTML to display the items on screen. Originally, I tried to to drinks.innerHTML, but that was throwing an error since that was a json file. Working with a classmate, Aditya, he recommended creating a separate element to append my text to and changed to text.innerHTML to display the items in a list. 
