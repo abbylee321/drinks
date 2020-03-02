@@ -1,9 +1,11 @@
 ## VIRTUAL DRINKS
 
-This week, I created a virtual bartending website, where you can access a list of drinks and add your own to the list. I used the Npm package drinks. ![Drinks] https://www.npmjs.com/package/drinks. You can get a list of drinks by clicking on the button "Get Drinks". You can also add to the list of drinks by entering your favorite drink into the input box, which you will see added to the list at the end. 
+This week, I created a virtual bartending website, where you can access a list of drinks and add your own to the list. I used the Npm package drinks. https://www.npmjs.com/package/drinks. You can get a list of drinks by clicking on the button "Get Drinks". You can also add to the list of drinks by entering your favorite drink into the input box, which you will see added to the list at the end. 
+
+![Website](https://github.com/abbylee321/Week4/blob/master/Drinks%20Website.png)
 
 ## PROCESS
-###Overview 
+### Overview 
 This week was a lot learning in terms of learning Node.js and how it interacts with the client side. I wanted to understand the types of HTTP requests : GET, PUT, PUSH, DELETE, so focused more on those concepts rather than the design. I worked through the backend guide and workbook. 
 
 ## DEVELOPMENT 
