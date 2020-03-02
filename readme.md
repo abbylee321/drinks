@@ -18,7 +18,7 @@ After understanding the JSON file, I wanted to display all the drink names on sc
 ![serverclient](https://github.com/abbylee321/Week4/blob/master/Server%2BClient%20Overview.jpg)
 
 
-First, to test that I could get all the data I did a console.log on the button click. Next, I used innerHTML to display the items on screen. Originally, I tried to to drinks.innerHTML, but that was throwing an error since that was a json file. Working with a classmate, Aditya, he recommended creating a separate element to append my text to and changed to text.innerHTML to display the items in a list. 
+First, to test that I could get all the data I did a console.log on the button click. Next, I used innerHTML to display the items on screen. Originally, I tried to to drinks.innerHTML, but that was throwing an error since that was a json file. Working with a classmate, Aditya, he recommended creating a separate element to append my text to and changed to text.innerHTML to display the items in a list. I also worked with Ashwita who gave me a great overview of CSS. 
 
 I decided to add another level and have the user add a drink to the list. When I worked through the workbook, I tried to adopt the POST method, and tried to push to my array, but this is where structurally the JSON interfered with me executing my code. To add a drink, I created a function :
 function addDrink(drink) {
@@ -43,6 +43,7 @@ Eventually, I want a user to randomly select a drink upon a GET request, adding 
 * Cassie Tarakajian
 * Aditya Jain
 * Jason Tse
+* Ashwita Palekar
 
 
 
